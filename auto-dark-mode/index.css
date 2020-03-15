@@ -1,0 +1,64 @@
+:root {
+    --text-link: #d23669;
+}
+
+html {
+    background-color: var(--bg);
+    color: var(--main);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main: #f3f3f3;
+        --bg: #333333;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --main: #333;
+        --bg: #ffffff;
+    }
+}
+
+/*my style*/
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px auto;
+    width: 800px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header svg {
+    width: 56px !important;
+    height: 56px !important;
+}
+
+header a {
+    margin-left: 10px;
+    color: var(--text-link);
+}
+
+main h3 {
+    color: var(--text-link);
+}
