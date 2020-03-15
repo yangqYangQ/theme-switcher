@@ -32,3 +32,6 @@ html {
     }
 }
 ```
+
+### Browsers Support
+https://caniuse.com/#search=prefers-color-scheme
