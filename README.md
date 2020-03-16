@@ -1,7 +1,7 @@
 # Theme Switcher
 网页明暗主题色切换
 
-## Auto Dark Mode
+## :dog: Auto Dark Mode
 
 ### Summary
 
@@ -37,11 +37,11 @@ html {
 https://caniuse.com/#search=prefers-color-scheme
 
 
-## White and Dark Theme
+## :dog: White and Dark Theme
 
 [预览地址](https://yangqyangq.github.io/theme-switcher/white-dark-theme/)
 
-### Tips and Tricks
+### Tips and Tricks About CSS Variables
 ```css
 :root{
   --example-color: #ccc;
