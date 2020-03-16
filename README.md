@@ -35,3 +35,35 @@ html {
 
 ### Browsers Support
 https://caniuse.com/#search=prefers-color-scheme
+
+
+## White and Dark Theme
+
+[预览地址](https://yangqyangq.github.io/theme-switcher/white-dark-theme/)
+
+### Tips and Tricks
+```css
+:root{
+  --example-color: #ccc;
+}
+
+.someElement {
+  background-color: var(--example-color, #d1d1d1);
+}
+```
+`class` 为 `someElement` 元素的背景色设置为  `#ccc`
+
+如果 `--example-color` 值无效时， 背景色值取 `#d1d1d1`
+
+
+
+```css
+.someElement {
+  background-color: var(--first-color, var(--second-color, white));
+}
+```
+
+当 `--first-color` 值无效时，取 `--second-color`
+
+当 `--first-color` 和 `--second-color` 均无效时，背景色值为 `white`
+
